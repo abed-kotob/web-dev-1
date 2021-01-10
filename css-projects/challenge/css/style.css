@@ -1,0 +1,95 @@
+#welcome-msg{
+    border: 2px solid black;
+    background-color: rgb(241, 231, 90);
+    /* width: 25.5%; */
+
+    text-align: center;   
+    color:crimson;
+}
+#welcome-msg:hover{
+    background-color:rgb(0, 255, 76);
+    border: 2px solid rgb(25, 1, 92);
+}
+h2:hover{
+    background-color:rgb(0, 255, 76);
+    border: 2px solid rgb(25, 1, 90);
+}
+.sub{
+    font-family: "Roboto Mono", serif;
+
+    border: 2px solid black;
+    background-color: orange;
+    /* width: 25.5%; */
+
+    text-align: center;
+}
+.topic-sub{
+    font-family: "Roboto Mono", serif;
+    background-color: orange;
+
+    text-align: center;
+    width: 90px;
+}
+
+p{
+    font-family: "Hachi Maru Pop";
+}
+img{
+    height: 300px;
+}
+img:hover{
+    height: 450px;
+    transition: 500ms all;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.sidebar{
+    display: grid;
+
+    border: 1px solid black;
+    margin: 20px;
+    padding: 30px;
+
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+.content{
+    display: grid;
+
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid black;
+}
+.post{
+    border: 1px solid black;
+    padding: 15px;
+}
+.image-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image-grid > img {
+    margin: 10px;
+}
+#post-text{
+    padding: 15px;
+}
+#post-text > a {
+    padding: 10 px;
+    text-decoration: none;
+    color: rgb(3, 3, 160);
+}
+#post-text > a:hover{
+    color: rgb(199, 36, 36);
+    transition: 500ms;
+}
+
+@keyframes fade-in{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

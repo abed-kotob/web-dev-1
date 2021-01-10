@@ -1,0 +1,32 @@
+body{
+    /* background: rgb(169, 194, 226); */
+    /* background: url("../img/img-2.jpg"); */
+    /* or can specify background keyword*/
+    font-family: "Hachi Maru Pop";
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-pure-color-watercolor-graffiti-gradient-background-board-design-board-design-image_66713.jpg")
+}
+
+.subtitle {
+    color: rgba(179, 101, 101, 1);
+    font-family: "Roboto", sans-serif;
+}
+
+#service-image{
+    height: 400px;
+    width: 70%;
+
+    background: url("../img/img-2.jpg");
+    /* background-repeat: no-repeat; */
+    /* background-color: steelblue; */
+    /* background-size: 50px 100px; */
+    /* background-size: cover; */
+    background-size: contain;
+}
+
+#title{
+    font-weight:900;
+}
+
+#learn-sub{
+    font-family: "Times New Roman", serif;
+}
